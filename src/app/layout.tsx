@@ -28,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={` bg-gray-950 text-white  ${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={` overflow-y-scroll bg-gray-950 text-white  ${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Header/>
         {children}
