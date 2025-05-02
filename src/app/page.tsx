@@ -14,7 +14,7 @@ const page = () => {
     <section className='mt-4 flex gap-x-4 text-sm text-white/50'>
       <p>Popular : </p>
       <div className='space-x-2 font-semibold'>
-        <Link href="/events/newyork">New York</Link>
+        <Link href="/events/newyork">Austin</Link>
         <Link href="/events/boston">Boston</Link>
       </div>
     </section>
